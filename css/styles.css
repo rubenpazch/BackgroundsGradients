@@ -1,0 +1,276 @@
+body {
+  line-height: 1;
+  color: #212121;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-size: 12px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+main {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+header {
+  max-width: 100%;
+  width: 980px;
+  height: 90px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 9998;
+  top: 55px;
+  margin: 0 auto;
+}
+
+footer {
+  color: #6e6e6e;
+  font-size: 0.8334em;
+  line-height: 10.2;
+}
+
+section {
+  width: 1440px;
+  height: 800px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  color: #fff;
+  justify-content: center;
+}
+
+input {
+  border-radius: 8px;
+  width: 115px;
+  background: linear-gradient(to bottom, rgb(230, 230, 230) 0%, rgb(183, 183, 183) 49%, rgb(160, 160, 160) 50%, rgb(125, 125, 125) 100%);
+  border-top: 1px solid rgb(148, 146, 146);
+  border-bottom: 1px solid rgb(86, 83, 83);
+  border-left: 1px solid rgb(119, 119, 119);
+  border-right: 1px solid rgb(111, 110, 110);
+  height: 18px;
+}
+
+section h1 {
+  font-size: 3em;
+  line-height: 36px;
+  font-weight: 100;
+  font-style: normal;
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+section p {
+  font-size: 2em;
+  font-weight: 100;
+  font-style: normal;
+  text-align: center;
+  display: inline;
+}
+
+section span {
+  font-size: 1.5em;
+  font-weight: 100;
+  padding: 0;
+}
+
+nav {
+  width: 90%;
+  height: 30px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  border: 1px solid #989898;
+  border-radius: 8px;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  background: linear-gradient(to bottom, rgba(196, 194, 196, 1) 0%, rgba(128, 128, 128, 1) 50%, rgba(94, 94, 94, 1) 51%, rgba(122, 122, 122, 1) 100%);
+  border-radius: 8px;
+}
+
+nav ul li {
+  list-style: none;
+  text-align: center;
+  height: 100%;
+  padding: 0;
+  border-right: 1px solid #6e6e6e;
+  line-height: 2.7em;
+  font-weight: 300;
+  font-size: 11.5px;
+  color: #fff;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container-menu-section {
+  background-image: url('../img/sky-main-picture.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: -650px;
+  position: absolute;
+  top: 0;
+  right: auto;
+  left: 50%;
+  margin-left: -720px;
+  height: 940px;
+  overflow: hidden;
+}
+
+.services-container {
+  width: 1440px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  position: absolute;
+  right: auto;
+  left: 50%;
+  margin-left: -720px;
+  top: 665px;
+}
+
+.services-container img {
+  width: 359px;
+}
+
+.promo {
+  height: 200px;
+  width: 100%;
+}
+
+.logo {
+  flex: 1 1 0;
+}
+
+.logo-picture {
+  background-image: url("../img/icons.png");
+  background-position-x: center;
+  background-position-y: 2px;
+}
+
+.store {
+  flex: 1 1 0;
+}
+
+.mac {
+  flex: 1 1 0;
+}
+
+.ipod {
+  flex: 1 1 0;
+}
+
+.iphone {
+  flex: 1 1 0;
+}
+
+.ipad {
+  flex: 1 1 0;
+}
+
+.itunes {
+  flex: 1 1 0;
+}
+
+.support {
+  flex: 1 1 0;
+}
+
+.search {
+  flex: 1.5 1 0;
+  display: flex;
+  align-items: center;
+}
+
+.footermenu {
+  position: absolute;
+  top: 835px;
+  right: auto;
+  left: 50%;
+  margin-left: -465px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.footermenu2 {
+  position: absolute;
+  top: 850px;
+  right: auto;
+  left: 50%;
+  margin-left: -505px;
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.footermenu li {
+  display: inline;
+  border-right: 1px solid #6e6e6e;
+  padding: 0 5px 0 5px;
+}
+
+.footermenu a {
+  text-decoration: none;
+  color: #08c;
+}
+
+.footermenu2 li {
+  display: inline;
+}
+
+.footermenu2 a {
+  text-decoration: none;
+  color: #08c;
+}
+
+.icon-left {
+  height: 25px;
+  width: 10px;
+  float: left;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 16px;
+}
+
+.icon-left i {
+  height: 11px;
+}
+
+.input-right {
+  height: 25px;
+  width: 100px;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li:first-child {
+  border-left: 0;
+}
+
+nav ul li:last-child {
+  border-right: 0;
+}
+
+nav ul li a:hover {
+  background: linear-gradient(to bottom, rgba(196, 194, 196, 1) 0%, rgba(59, 59, 59, 1) 50%, rgba(36, 36, 36, 1) 51%, rgba(122, 122, 122, 1) 100%);
+  display: block;
+  height: 100%;
+}
