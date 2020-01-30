@@ -80,11 +80,13 @@ section span {
 }
 
 nav {
-  width: 80%;
-  height: 35px;
+  width: 90%;
+  height: 30px;
   display: flex;
   flex-flow: row;
   align-items: center;
+  border: 1px solid #989898;
+  border-radius: 8px;
 }
 
 nav ul {
@@ -104,10 +106,9 @@ nav ul li {
   height: 100%;
   padding: 0;
   border-right: 1px solid #6e6e6e;
-  border-left: 1px solid #212121;
-  line-height: 3em;
+  line-height: 2.7em;
   font-weight: 300;
-  font-size: 13px;
+  font-size: 11.5px;
   color: #fff;
 }
 
