@@ -44,6 +44,17 @@ section {
   justify-content: center;
 }
 
+input {
+  border-radius: 8px;
+  width: 90px;
+  background: linear-gradient(to bottom, rgb(230, 230, 230) 0%, rgb(183, 183, 183) 49%, rgb(160, 160, 160) 50%, rgb(125, 125, 125) 100%);
+  border-top: 1px solid rgb(148, 146, 146);
+  border-bottom: 1px solid rgb(86, 83, 83);
+  border-left: 1px solid rgb(119, 119, 119);
+  border-right: 1px solid rgb(111, 110, 110);
+  height: 18px;
+}
+
 section h1 {
   font-size: 3em;
   line-height: 36px;
@@ -74,7 +85,6 @@ nav {
   display: flex;
   flex-flow: row;
   align-items: center;
-  
 }
 
 nav ul {
@@ -99,6 +109,14 @@ nav ul li {
   font-weight: 300;
   font-size: 13px;
   color: #fff;
+}
+
+nav ul li:first-child {
+  border-left: 0;
+}
+
+nav ul li:last-child {
+  border-right: 0;
 }
 
 nav ul li a {
@@ -151,6 +169,12 @@ nav ul li a:hover {
   flex: 1 1 0;
 }
 
+.logo-picture {
+  background-image: url("../img/icons.png");
+  background-position-x: center;
+  background-position-y: 2px;
+}
+
 .store {
   flex: 1 1 0;
 }
@@ -180,15 +204,17 @@ nav ul li a:hover {
 }
 
 .search {
-  flex: 1 1 0;
+  flex: 1.5 1 0;
+  display: flex;
+  align-items: center;
 }
 
 .footermenu {
   position: absolute;
-  top: 875px;
+  top: 835px;
   right: auto;
   left: 50%;
-  margin-left: -445px;
+  margin-left: -465px;
   display: flex;
   flex-flow: row;
   align-items: center;
@@ -196,10 +222,10 @@ nav ul li a:hover {
 
 .footermenu2 {
   position: absolute;
-  top: 880px;
+  top: 850px;
   right: auto;
   left: 50%;
-  margin-left: -445px;
+  margin-left: -505px;
   margin-top: 20px;
   display: flex;
   flex-flow: row;
@@ -224,4 +250,26 @@ nav ul li a:hover {
 .footermenu2 a {
   text-decoration: none;
   color: #08c;
+}
+
+.icon-left {
+  height: 25px;
+  width: 10px;
+  float: left;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 16px;
+}
+
+.icon-left i {
+  height: 11px;
+}
+
+.input-right {
+  height: 25px;
+  width: 100px;
+  float: left;
+  display: flex;
+  align-items: center;
 }
