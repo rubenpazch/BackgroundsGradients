@@ -116,12 +116,6 @@ nav ul li a {
   text-decoration: none;
 }
 
-nav ul li a:hover {
-  background: linear-gradient(to bottom, rgba(196, 194, 196, 1) 0%, rgba(59, 59, 59, 1) 50%, rgba(36, 36, 36, 1) 51%, rgba(122, 122, 122, 1) 100%);
-  display: block;
-  height: 100%;
-}
-
 .container-menu-section {
   background-image: url('../img/sky-main-picture.jpg');
   background-repeat: no-repeat;
@@ -272,4 +266,10 @@ nav ul li:first-child {
 
 nav ul li:last-child {
   border-right: 0;
+}
+
+nav ul li a:hover {
+  background: linear-gradient(to bottom, rgba(196, 194, 196, 1) 0%, rgba(59, 59, 59, 1) 50%, rgba(36, 36, 36, 1) 51%, rgba(122, 122, 122, 1) 100%);
+  display: block;
+  height: 100%;
 }
