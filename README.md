@@ -14,7 +14,8 @@ You can find the original project specification at: https://www.theodinproject.c
 
 ## Live Demo
 
-https://backgroundsandgradients.000webhostapp.com/
+[Live Demo Link](https://rawcdn.githack.com/rubenpazch/BackgroundsGradients/b0acc1269e4ea6f6605fdd580c58ef0855e75d4e/index.html)
+
 
 
 ## Authors
